@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+body{
+    font-family: Outfit;
+    background-color: #0d1a2d;
+    overflow: hidden;
+}
+#mainContainer{
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 40%;
+    color: white;
+    padding: 18px 18px;
+    border-radius: 14px;
+    width: 19%;
+    height: 460px;
+    /* overflow: hidden; */
+    background-color: #15273f;
+    box-shadow: 0px 20px 10px #0c1729;
+}
+h4:hover{
+    cursor: pointer;
+    color: #47d8dd; 
+}
+p{
+    color: #95accb;
+}
+#mainImage{
+    width: 100%;
+    height: 50%;
+    border-radius: 14px;
+}
+#mainImage:hover{
+    cursor: pointer;
+    mask-image: url(images/icon-view.svg);
+}
+#ETH img{
+    float: left;
+}
+#ETH p{
+    color: #47d8dd; 
+    float: left;
+    /* border: 1px solid; */
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#days img{
+    margin-left: 20%;
+    float: inline-start;
+}
+hr{
+    color: #ccc;
+}
+#st{
+    margin-left: 10px;
+    float: left;
+    color: #90a4bf;
+}
+#nd{
+    margin-left: 130px;
+    /* border: 5px solid; */
+}
+#nd:hover{
+    color: #49b4c6;
+    cursor: pointer;
+}
